@@ -6,6 +6,7 @@ resources:
 - argocd/operators/ibm-datapower-operator.yaml
 - argocd/operators/ibm-foundations.yaml
 - argocd/operators/ibm-catalogs.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
 
 ## Cloud Pak for Integration
 #- argocd/operators/ibm-ace-operator.yaml
