@@ -123,7 +123,7 @@ metadata:
     gitops.tier.layer: gitops
 spec:
   destination:
-    namespace: openshift-gitops
+    namespace: cp4i
     server: https://kubernetes.default.svc
   project: services
   source: # repoURL  and targetRevision populated by kustomize patches in 2-services/kustomization.yaml
